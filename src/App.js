@@ -3,17 +3,17 @@ import './App.css';
 
 function App() {
     return (
-        <div className='navbar bg-blue-600'>
+        <div className='navbar bg-green-600'>
           <div className='container flex mx-auto items-center'>
-              <div className='w-3/12'>
-                <div className='logo text-white text-center uppercase font-semibold text-2xl'>
-                  egi
+              <div className='w-6/12'>
+                <div className='logo text-blue-600 text-center uppercase font-semibold'>
+                  egi pebrian
                 </div>
               </div>
-              <div className='w-3/12'>
+              <div className='w-6/12'>
                 <div className='nav text-center'>
-                  <ul className='nav-item text-white text-opacity-60 flex justify-center space-x-6 py-6 font-semibold'>
-                      <li><a className='text-white text-opacity-60 font-semibold ttext-lg'>Profile
+                  <ul className='nav-item text-white text-opacity-60 flex justify-center space-x-10 py-10 font-semibold'>
+                      <li><a className='text-white text-opacity-60 font-semibold text-lg'>Profile
                         </a></li> 
                       <li><a className='text-white text-opacity-60 font-semibold text-lg'>Skills
                         </a></li> 
@@ -24,9 +24,9 @@ function App() {
                   </ul>
                 </div>
               </div>
-              <div className='w-3/12'>
+              <div className='w-6/12'>
                 <div className='button text-center'>
-                  <a className='text-white font-semibold border border-yellow-500 text-yellow-300 rounded-full px-6 py-2'>Kontak</a>
+                  <a className='text-white font-semibold border border-blue-900 text-red-900 rounded-full px-6 py-2'>Kontak</a>
                 </div>
               </div>
           </div>
